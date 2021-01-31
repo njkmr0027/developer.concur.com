@@ -113,7 +113,7 @@ From there you can simply click on the **Go Live** button in VS Code to view you
 
      **Note:** All API Reference files are the files within the ***'includes'*** folder that **do not** have a Swagger.json.md extension
 
-## To view API Reference changes on your local machine:
+## To view API Reference changes on your CLI:
 
 1. Change directories to the 'slate' folder in the Slate portion of this repository:
     `cd developer.concur.com/src/Slate-API-Explorer-Reference/slate/`
