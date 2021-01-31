@@ -3,10 +3,6 @@
 
 This repo contains the documentation and support content for the Concur API developer audience. This includes both internal and external developers.  
 
-Changes merged to the `preview` branch can be found here: [http://preview.developer.concur.com/](http://preview.developer.concur.com/)
-
-Changes merged to the `livesite` branch can be found here: [developer.concur.com](https://developer.concur.com/)
-
 # Sitemap
 
 The Concur Developer Website found within the `/src` folder is organized into these areas:
@@ -61,17 +57,20 @@ If the site build is successful, within CircleCI:
 
 
 
-# To Preview the new API Explorer or API Reference sites from Visual Studio Code:
+## To Preview the new API Explorer or API Reference sites from Visual Studio Code:
 
 1. Clone the repository to your machine: `git clone https://github.com/sap-staging/developer.concur.com.git` or using Github Desktop (Green Code tab above > Open With Github Desktop)
+
 2. Install the VS Code **Go Live** Extension: 
     - Click on the 6th extension from the top left list of icons
     - Enter **Live Server** in the search bar
     - Click **Install**
     - More info on this extension here : https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+    
 3. Change directories to the static file for **API Reference** located at: `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/build/api-reference.html` or the static file for **API Explorer** located at `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/build/index.html` and make sure the file is open in your VS Code Editor.
-5. Click the **Go Live** button at the bottom right of the VS Code window.
-6. VS Code will open a new window rendering the site (typically on localhost:5500)
+
+4. Click the **Go Live** button at the bottom right of the VS Code window.
+5. VS Code will open a new window rendering the site (typically on localhost:5500)
 
 **Note:** This will allow you to preview the site only, but not to view updated changes you've made to API Explorer or API Reference files 
 
@@ -86,20 +85,20 @@ From there you can simply click on the **Go Live** button in VS Code to view you
 
 
 
-# To make changes to Swagger files (or other files) on your local machine using the CLI:
+## To make changes to Swagger files (or other files) on your local machine using the CLI:
 
 1. Clone the repository to your machine: `git clone https://github.com/sap-staging/developer.concur.com.git`
 2. Using the editor of your choice, make changes to any files under the `src` folder. i.e. `sap-staging/developer.concur.com/src/api-explorer/v3-0/<filename>`
 
 
-# To view changes on your local machine:
+## To view changes on your local machine:
 
 1. Change directories in your CLI to the `developer.concur.com` folder:  `cd sap-staging/developer.concur.com`
 2. Run the following commands: 1. `bundle install` (this only needs to be done one time)  2. `bundle exec jekyll serve` (each time)
 4. Site can be viewed at `localhost:4000`
 
 
-# (New Change) To make changes specifically to files within API Reference:
+## (New Change) To make changes specifically to files within API Reference:
 
 1. Using the editor of your choice, make changes to any file under the `includes` folder located at  `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/includes/<filename>`
 
