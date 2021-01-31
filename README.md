@@ -67,14 +67,19 @@ If the site build is successful, within CircleCI:
     - Click **Install**
     - More info on this extension here : https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
     
-3. Change directories to the static file for **API Reference** located at: `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/build/api-reference.html` or the static file for **API Explorer** located at `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/build/index.html` and make sure the file is open in your VS Code Editor.
+3. Change directories to the static file for **API Reference** located at: `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/build/api-reference.html`
+
+or to the static file for **API Explorer** located at `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/build/index.html` and make sure the file is open in your VS Code Editor.
 
 4. Click the **Go Live** button at the bottom right of the VS Code window.
+
 5. VS Code will open a new window rendering the site (typically on localhost:5500)
 
 **Note:** This will allow you to preview the site only, but not to view updated changes you've made to API Explorer or API Reference files 
 
-To view the changes you've made to **API Reference** files, you will need to run Middleman on your VS Code Terminal or your CLI by entering the following commands: 1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman server` (each time) to render your changes on `localhost:4567`
+To view the changes you've made to **API Reference** files, you will need to run Middleman on your VS Code Terminal or your CLI by entering the following commands: 
+    
+    1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman server` (each time) to render your changes on `localhost:4567`
 
 You may also run the following commands 1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman build` (each time) to generate a fresh set of static files containing your updated Markdown changes.
 
