@@ -49,7 +49,7 @@ If the site build is successful, within CircleCI:
 1. Entire site is deployed to a Github Pages branch, from which the site is then rendered.
 
 
-# Dependencies:
+## Dependencies:
 
 1. Jekyll: https://jekyllrb.com/docs/ (For main site)
 
