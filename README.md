@@ -74,7 +74,7 @@ If the site build is successful, within CircleCI:
 
 **Note:** This will allow you to preview the site only, but not to view updated changes you've made to API Explorer or API Reference files 
 
-To view the changes you've made to **API Reference** files, you will need to run Middleman on your VS Code Terminal or your CLI by entering the following commands: 1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman server` (each time) to render your changes on localhost:4567
+To view the changes you've made to **API Reference** files, you will need to run Middleman on your VS Code Terminal or your CLI by entering the following commands: 1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman server` (each time) to render your changes on `localhost:4567`
 
 You may also run the following commands 1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman build` (each time) to generate a fresh set of static files containing your updated Markdown changes.
 
