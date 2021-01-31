@@ -64,7 +64,7 @@ If the site build is successful, within CircleCI:
 # To Preview the new API Explorer or API Reference sites from Visual Studio Code:
 
 1. Clone the repository to your machine: `git clone https://github.com/sap-staging/developer.concur.com.git` or using Github Desktop (Green Code tab above > Open With Github Desktop)
-2. Install the VS Code Go Live Extension: 
+2. Install the VS Code **Go Live** Extension: 
     - Click on the 6th extension from the top left list of icons
     - Enter **Live Server** in the search bar
     - Click **Install**
@@ -75,7 +75,7 @@ If the site build is successful, within CircleCI:
 
 **Note:** This will allow you to preview the site only, but not to view updated changes you've made to API Explorer or API Reference files 
 
-To view the changes you've made to API Reference files, you will need to run Middleman on your VS Code Terminal or your CLI by entering the following commands: 1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman server` (each time) to render your changes on localhost:4567
+To view the changes you've made to **API Reference** files, you will need to run Middleman on your VS Code Terminal or your CLI by entering the following commands: 1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman server` (each time) to render your changes on localhost:4567
 
 You may also run the following commands 1. `bundle install` (this only needs to be done one time)  2. `bundle exec middleman build` (each time) to generate a fresh set of static files containing your updated Markdown changes.
 
@@ -101,9 +101,9 @@ From there you can simply click on the **Go Live** button in VS Code to view you
 
 # (New Change) To make changes specifically to files within API Reference:
 
-1. Using the editor of your choice, make changes to any files under the `includes` folder located at  `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/includes/<filename>`
+1. Using the editor of your choice, make changes to any file under the `includes` folder located at  `sap-staging/developer.concur.com/src/Slate-API-Explorer-Reference/slate/includes/<filename>`
 
-    ## Note: All API Reference files are files within the 'includes' folder that *do not* have a Swagger.json.md extension
+     **Note:** All API Reference files are the files within the ***'includes'*** folder that **do not** have a Swagger.json.md extension
 
 ## To view API Reference changes on your local machine:
 
