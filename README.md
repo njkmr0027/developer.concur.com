@@ -81,6 +81,7 @@ To view the changes you've made to **API Reference** files, you will need to run
     2. `bundle exec middleman server` (each time) to render your changes on `localhost:4567`
 
 You may also run the following commands:
+
     1. `bundle install` (this only needs to be done one time)
     2. `bundle exec middleman build` (each time) to generate a fresh set of static files containing your updated Markdown changes.
 
