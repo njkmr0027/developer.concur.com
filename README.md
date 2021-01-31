@@ -83,7 +83,9 @@ To view the changes you've made to **API Reference** files, you will need to run
 You may also run the following commands:
 
     1. `bundle install` (this only needs to be done one time)
-    2. `bundle exec middleman build` (each time) to generate a fresh set of static files containing your updated Markdown changes.
+    2. `bundle exec middleman build` (each time) 
+    
+    This will generate a fresh set of static files containing your updated Markdown changes.
 
 From there you can simply click on the **Go Live** button in VS Code to view your updated changes. 
 
