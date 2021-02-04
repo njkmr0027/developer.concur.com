@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: github.com/sap/developer.concur.com
-Upstream-Contact: shure.joe@sap.com
-Source: https://github.com/sap/developer.concur.com
-
-Files: **
-Copyright:  2021 SAP SE or an SAP affiliate company and developer.concur.com contributors
-License: Apache-2.0

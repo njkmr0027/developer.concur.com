@@ -5,6 +5,7 @@ import fileinput
 #These are showing up on the file as its being compiled in CircleCI, not on the files at the local machine
 scope = "<th>Scope</th>"
 scope_desc = "<th>Scope Description</th>"
+chevron = "»"
 
 
 
@@ -27,6 +28,8 @@ def removeScopeTags():
             line = line.replace(scope, "")                                               
         elif scope_desc in line:
             line = line.replace(scope_desc, "")
+        elif chevron in line:
+            line = line.replace(chevron, "")
                 
         print (line)
                 
