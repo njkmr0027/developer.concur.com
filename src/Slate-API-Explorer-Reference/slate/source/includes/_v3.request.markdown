@@ -63,7 +63,7 @@ Name|Type|Format|Description
 `id`|`string`|`path`|**Required** The Request ID
 `user`|`string`|`query`|The login ID of the user. Optional. The user must have the Web Services Admin (Professional) or Can Administer (Standard) user role to use this parameter.
 
-## <a name="method3"></a>Submit a request by ID
+### <a name="method3"></a>Submit a request by ID
 
 ```
 POST /api/v3.0/travelrequest/requests/{id}/submit

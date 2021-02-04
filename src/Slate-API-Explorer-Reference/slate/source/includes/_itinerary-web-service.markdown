@@ -10,7 +10,7 @@ The SAP Concur Itinerary Web Service allows Travel Management Companies (TMC), S
 * [GET Itinerary Details](#getdetails)
 * [POST Itinerary Details](#postdetails)
 * [POST Itinerary Cancellation](#postcancel)
-* [POST Booking Details](#post)
+* [POST Booking Details](#post-booking-details)
 * [POST Booking Cancellation](#cancel)
 * [Booking Object Elements](#objects)
 
@@ -1432,7 +1432,7 @@ The request will return the full trip details for the cancelled trip. The trip w
 </Itinerary>
 ```
 
-#### <a name="post"></a>POST Booking Details
+#### <a name="post"></a> POST Booking Details
 Creates a new booking or updates an existing booking. A new booking will be assigned to the specified trip, or if no trip is specified, the first itinerary that spans the booking dates. If no trip is specified and no itinerary exists that spans the booking dates, a new itinerary will be created.  
 
 This endpoint can be used to create/update bookings for a user that is not the OAuth consumer. This is most often done when a travel supplier or Travel Management Company needs to create/update a booking on behalf of a user. The supplier or TMC must be registered with SAP Concur, and must have an account that has one of the following user roles: Web Services Administrator for Professional, or Can Administer for Standard.
