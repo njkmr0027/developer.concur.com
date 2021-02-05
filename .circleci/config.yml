@@ -118,4 +118,4 @@ workflows:
             - build
           filters:
             branches:
-              only: preview
+              only: main
