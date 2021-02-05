@@ -8,7 +8,7 @@ The Travel Profile resource represents a Concur Travel profile that contains tra
 
 * [Get a travel profile](#get-a-travel-profile)
 * [Create / Update a travel profile](#create-or-update-a-travel-profile)
-* [Schema](#schema)
+* [Schema](#travel-profile-v2-resource-schema)
   * [General](#travel-profile-v2-general)
   * [EmergencyContact](#schema-emergency-contact)
   * [Address](#schema-address)
@@ -105,7 +105,7 @@ Authorization: OAuth {access_token}
 
 Where  `access_token` is the OAuth 2.0 access token of the user whose travel profile information you want to retrieve or update.
 
-#### <a name="schema"></a>Schema
+#### <a name="schema"></a>Travel Profile v2 Resource - Schema
 
 The complete schema definition is available here: [Travel Profile XSD](https://www.concursolutions.com/ns/TravelUserProfile.xsd).
 
