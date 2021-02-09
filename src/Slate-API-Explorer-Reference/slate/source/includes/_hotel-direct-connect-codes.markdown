@@ -1,5 +1,6 @@
 
-## Direct Connect - Hotel v1 - Codes
+## Hotel v1 - Codes
+
 
 <div id="attn-depr">
 <p><b>This API has been deprecated.</b></p>

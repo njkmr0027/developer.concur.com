@@ -4,7 +4,7 @@
 
 ### Authentication 
 <div id="attn-depr">
-<p>This API has been deprecated.</p>
+<p><b>This API has been deprecated.</b></p>
 
 <p>Deprecation Date: 02/04/2017</p>
 </div>

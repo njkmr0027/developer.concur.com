@@ -715,6 +715,7 @@ html, body {
   div[id*="attn-depr"]{
     background-color: #e68d8c;
     width: 600px;
+    margin-left: 30px;
   }
 
   h3[id*="example"]{
@@ -722,6 +723,25 @@ html, body {
   }
 
   #get-oauth-access-token{
+    margin-bottom: -20px;
+  }
+
+  #outbound-messages{
+    margin-bottom: -20px;
+  }
+
+  #get-a-travel-profile{
+    margin-bottom: -20px;
+  }
+
+  #profile-v1-user-definition{
+    margin-bottom: -20px;
+  }
+  #payload{
+    margin-bottom: -20px;
+  } 
+
+  #put-expense-entry-attendees{
     margin-bottom: -20px;
   }
 
@@ -1403,10 +1423,24 @@ h3[id*="special-note-please-read-first"]{
   margin-bottom: -20px;
 }
 
+#encoding{
+  margin-bottom: -20px;
+}
+#post-an-expense-report-header{
+  margin-bottom: -20px;
+}
+
 #subscribe-to-notifications-for-itinerary-changes{
   margin-bottom: -20px;
 }
 
+#get-an-expense-group-configuration{
+  margin-bottom: -20px;
+}
+
+#hotel-process-overview{
+  margin-bottom: -20px;
+}
 #travel-agency-resources{
   margin-bottom: -20px;
 }
@@ -1414,6 +1448,8 @@ h3[id*="special-note-please-read-first"]{
 #definitions-of-resources{
   margin-bottom: -20px;
 }
+
+
 
 
 /* REST For User Provisioning Form*/
