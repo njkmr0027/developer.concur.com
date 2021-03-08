@@ -123,6 +123,10 @@ From there you can simply click on the **Go Live** button in VS Code to view you
 3. Changes can be viewed at `localhost:4567`
 
 
+# Licensing 
+
+[![REUSE status](https://api.reuse.software/badge/github.com/sap-docs/developer.concur.com)](https://api.reuse.software/info/github.com/sap-docs/developer.concur.com)
+
 
 
 
