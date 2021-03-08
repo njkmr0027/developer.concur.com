@@ -14,7 +14,7 @@ Please use the Issues tab to report problems with the SAP Concur Developer Cente
 2. Follow the guidelines outlined in the following [README file](https://github.com/sap-staging/developer.concur.com/blob/main/README.md) to set up your environment.
 3. Commit any changes to your repo.
 4. Push any changes to your fork.
-5. Create a Pull Request in the preview repo.
+5. Create a Pull Request.
 
 ## Developer Certificate of Origin (DCO)
 
